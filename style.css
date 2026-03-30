@@ -1,0 +1,103 @@
+bodY{background-color:violet;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+header{
+    background :#ec8bbf;
+    color:white;
+    padding:15px;
+}
+navbar a{
+    color:rgb(242, 131, 212);
+    margin:10px;
+    text-decoration:none ;
+    padding:8px 15px;
+    border-radius:120px;;
+    transition:0.3s;
+}
+nav a hover{
+    background:green;
+}
+.sec{
+    padding:50px;
+}
+.sec img{
+    width:50px;
+    border-radius:50px;
+    height:50px;
+}
+.testimonial{
+    padding:15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.btn{
+    display:inline-block;
+    background:green;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-top:10px;
+    transition:0.3;
+}
+.btn:hover{
+    background:darkgreen;
+    transition:scale(1.05);
+}
+.service card{
+    padding:40px;
+    border: radius 20px;
+    background:#6ca1da
+}
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+card{
+    background:rgb(243, 126, 202);
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow:0.4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.card:hover{
+transform:translateY(-5PX);
+}
+.about{
+    padding:40px;
+    background:#6ca1da
+}
+.bar{
+    width:60%;
+    background:#ddd;
+    margin:10px auto;
+    height:8px;
+    border-radius:5px;
+}
+.html{
+    width:90%;
+    height:8px;
+    background:green;
+    border-radius:5px;
+}
+.css{
+    width:80%;
+    height:8px;background:green;
+    border-radius:5px;
+}
+.c{
+    width:60%;
+    height:8px;
+    background:green;
+    border-radius:5px;
+}
+footer{
+    background-color: steelblue;
+    color:whitesmoke;
+    padding:15px;
+    margin-top:30px;
+}
